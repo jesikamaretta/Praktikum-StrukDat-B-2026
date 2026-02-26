@@ -15,5 +15,24 @@ min = 50
 print(max, min)
 
 
-#4)hitung rata rata
-ratarata =  
+angka = [10, 20, 30, 40, 50]
+
+# 1. Tambahkan angka 60
+angka.append(60)
+
+# 2. Hapus angka 20
+angka.remove(20)
+
+# 3. Tampilkan angka tertinggi dan terendah
+tertinggi = max(angka)
+terendah = min(angka)
+
+print("Angka tertinggi:", tertinggi)
+print("Angka terendah:", terendah)
+
+# 4. Hitung rata-rata setelah perubahan
+rata_rata = sum(angka) / len(angka)
+print("Rata-rata:", rata_rata)
+
+# 5. Tampilkan seluruh isi list
+print("Isi list setelah perubahan:", angka)
